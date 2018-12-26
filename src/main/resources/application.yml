@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: crawler_redfin
+  data:
+    mongodb:
+      host: localhost
+      database: redfin_data
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    prometheus:
+      enabled: true
+      
+

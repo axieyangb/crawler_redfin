@@ -21,6 +21,7 @@ public class Region {
 		this.lastFetchedTime = lastFetchedTime;
 	}
 
+	@Field("last_fetched_time")
 	private Date lastFetchedTime;
 
 	@Field("sub_name")

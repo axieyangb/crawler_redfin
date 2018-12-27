@@ -15,6 +15,6 @@ public class HouseService {
     private HouseRepository homeRepo;
 
     public void addHomes(List<House> homes) {
-        this.homeRepo.insert(homes);
+        this.homeRepo.saveAll(homes);
     }
 }

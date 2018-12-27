@@ -10,6 +10,6 @@ public class RedfinCrawlerApplication {
     public static void main(String[] args) {
         BasicConfigurator.configure();
         ApplicationContext context = SpringApplication.run(RedfinCrawlerApplication.class, args);
-        context.getBean(WorkerCenter.class).initWorker();
+        context.getBean(WorkCenter.class).initWorker();
     }
 }

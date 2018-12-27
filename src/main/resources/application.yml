@@ -3,7 +3,7 @@ spring:
     name: crawler_redfin
   data:
     mongodb:
-      host: localhost
+      host: 10.54.16.68
       database: redfin_data
 management:
   endpoints:

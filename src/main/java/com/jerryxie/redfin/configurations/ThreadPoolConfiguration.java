@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class ThreadPoolConfiguration {
 
-    private final int threadPoolSize = 50;
+    private final int threadPoolSize = 200;
 
     @Bean
     public ScheduledThreadPoolExecutor getScheduledThreadPoolExecutor() {
